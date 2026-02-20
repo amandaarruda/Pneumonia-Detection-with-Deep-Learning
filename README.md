@@ -14,7 +14,25 @@ Clique em **"Open in Colab"** ou faça upload manual do arquivo `.ipynb` no [Goo
 
 ### Passo 2 - Organizar o dataset no Google Drive
 
-1. Descompacte o `.zip` diretamente no Drive ou localmente e faça o upload da pasta `ligia-compviz/` para o `MyDrive`.
+**Baixe o dataset do Kaggle:** [ligia-compviz - Competition Data](https://www.kaggle.com/competitions/ligia-compviz/data)
+
+Depois disso, extraia-o pro seu google drive da seguinte maneira:
+
+```
+/content/drive/MyDrive/
+└── ligia-compviz/
+    ├── train.csv
+    ├── test.csv
+    ├── train/
+    │   └── train/
+    │       ├── NORMAL/
+    │       │   └── *.jpeg
+    │       └── PNEUMONIA/
+    │           └── *.jpeg
+    └── test_images/
+        └── test_images/
+            └── *.jpeg
+```
 
 ### Passo 3 - Instalar dependências
 
